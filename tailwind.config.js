@@ -9,4 +9,9 @@ export default {
   },
   // import daisyUI
   plugins: [require("daisyui")],
+
+  // config daisyUI
+  daisyui: {
+    themes: ["light", "dark"],
+  }
 }
